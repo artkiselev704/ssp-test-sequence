@@ -14,4 +14,4 @@ COPY    --from=build /build/app ./
 
 CMD     ["/app/app"]
 
-EXPOSE  80/tcp
+EXPOSE  8080/tcp
